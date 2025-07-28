@@ -1,0 +1,35 @@
+body{
+    background-image: url('pic5.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+.b1{
+    color: aliceblue;
+    border-radius: 20px;
+    background-color: black;
+    transition: box-shadow 1s;
+    width:250px;
+    height:90px;
+    margin:10px;
+    font-size: 25px;
+    cursor:pointer;
+    align-items: center;
+    font-family: 'comic relief', 'Comic Sans MS', cursive;
+}
+.b1:hover{
+    box-shadow: 5px 5px 40px aliceblue;
+}
+.container{
+    display:flex;
+    justify-content:space-between;
+    flex-direction: row;
+}
+.container1{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    gap:30px;
+    margin-left: 50px;
+    margin-top: 50px;
+}

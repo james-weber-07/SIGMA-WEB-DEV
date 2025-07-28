@@ -1,0 +1,108 @@
+Perfect! Here's a detailed list of **text and font-related CSS properties** along with their **commonly used values** to help you remember and use them easily:
+
+---
+
+## 🎨 **Text & Font CSS Properties with Values**
+
+### 1. **`color`** – Sets the text color
+
+```css
+color: red;             /* named color */
+color: #ff0000;         /* hex color */
+color: rgb(255, 0, 0);  /* RGB */
+```
+
+---
+
+### 2. **`font-size`** – Sets the size of the text
+
+```css
+font-size: 16px;       /* pixels */
+font-size: 1.5em;      /* relative to parent */
+font-size: 120%;       /* percentage */
+```
+
+---
+
+### 3. **`font-family`** – Sets the font type
+
+```css
+font-family: Arial, sans-serif;
+font-family: 'Courier New', monospace;
+font-family: Georgia, serif;
+```
+
+---
+
+### 4. **`font-weight`** – Sets the thickness of text
+
+```css
+font-weight: normal;   /* default */
+font-weight: bold;
+font-weight: lighter;
+font-weight: 100;      /* numeric scale: 100 to 900 */
+```
+
+---
+
+### 5. **`font-style`** – Sets italic or normal
+
+```css
+font-style: normal;
+font-style: italic;
+font-style: oblique;
+```
+
+---
+
+### 6. **`text-align`** – Aligns text horizontally
+
+```css
+text-align: left;      /* default */
+text-align: center;
+text-align: right;
+text-align: justify;   /* spacing across entire line */
+```
+
+---
+
+### 7. **`text-decoration`** – Adds line styling
+
+```css
+text-decoration: none;          /* removes underline */
+text-decoration: underline;
+text-decoration: overline;
+text-decoration: line-through;
+```
+
+---
+
+### 8. **`line-height`** – Vertical spacing between lines
+
+```css
+line-height: normal;   /* default */
+line-height: 1.5;
+line-height: 24px;
+```
+
+---
+
+### 9. **`letter-spacing`** – Space between letters
+
+```css
+letter-spacing: normal;
+letter-spacing: 2px;
+```
+
+---
+
+### 10. **`word-spacing`** – Space between words
+
+```css
+word-spacing: normal;
+word-spacing: 4px;
+```
+
+---
+
+Would you like a small cheat sheet image or a practice exercise to test all these properties?

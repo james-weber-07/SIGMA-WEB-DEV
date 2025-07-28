@@ -1,0 +1,31 @@
+.container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin: 50px;
+    /* border:2px solid aliceblue;
+    padding:50px; */
+}
+.b1{
+    color: aliceblue;
+    border-radius: 20px;
+    background-color: black;
+    transition: box-shadow 1s;
+    width:18vw;
+    height:12vh;
+    margin:10px;
+    cursor:pointer;
+    font-size:2em;
+    /* border:none; */
+    align-items: center;
+    font-family: 'comic relief', 'Comic Sans MS', cursive;
+}
+.b1:hover{
+    box-shadow: 5px 5px 40px aliceblue;
+}
+body{
+    background-image: url(pic2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+    <style>
+        div{
+            border:none;
+            box-shadow:2px 2px 20px black;
+            display:inline-block;
+            padding:30px;
+        } 
+        img{
+            border-radius:50px;
+            width:50px;
+            height:50px;
+            object-fit: cover;
+            transition: box-shadow 1s;
+            vertical-align: top;
+        }
+        .i1{
+            border:none;
+            height:50px;
+            width:260px;
+            font-size:30px;
+            padding-left: 5px;
+            opacity:0.5;
+        }
+        button{
+            height: 50px;
+            width:100px;
+            border:none;
+            font-size:25px;
+            background-color:blue;
+            border-radius:25px;
+            color:white;
+            transition:box-shadow 1s;
+            vertical-align: top;
+        }
+        button:hover{
+            box-shadow:5px 5px 5px black;
+        }
+    </style>
+    <body>
+       <center>
+        <div>
+         <img src="space.jpg">
+         <input type="text" placeholder="What's happening?" class="i1">
+         <button>Tweet</button>
+        </div>
+        </center>
+    </body>
+</html>
