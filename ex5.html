@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Layouts</title>
+      <style>
+            *{
+                  margin: 0;
+                  padding: 0;
+            }
+            div img{
+                  width:70px;
+                  height: 70px;
+                  border-radius: 35px;
+                  position:fixed;
+                  bottom:20px;
+                  right:20px;
+            }
+            header{
+                  background-color: aqua;
+                  position:sticky;
+                  top: 0;
+                  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+            }
+            nav ul{
+                  display:flex;
+                  justify-content: space-around;
+                  list-style: none;
+                  padding: 1rem;
+            }
+            ul li a{
+                  color:rgb(0, 0, 0);
+                  text-decoration: none;
+                  font-size: 1.2rem;
+            }
+            main{
+                  display: flex;
+                  justify-content: space-around ;
+                  background-color: rgb(255, 242, 3,0.5);
+            }
+            main div{
+                  width:20vw;
+                  height: 120vh;
+                  background-color: rgb(0, 208, 255);
+                  padding:10vw;
+                  border-radius: 10px;
+                  margin:20px;
+            }
+            .box{
+                  height:20vh;
+                  background-color: black;
+            }
+            .box h1{
+                  text-align: center;
+                  color: rgb(255, 255, 255);
+                  font-size: 2rem;
+            }
+            footer{
+                  background-color: rgb(61, 96, 168);
+            }
+            footer p{
+                  text-align: center;
+                  color: rgb(255, 255, 255);
+                  font-size: 1.2rem;
+            }
+      </style>
+</head>
+
+<body>
+      <div><img src="pic1.jpg" alt="image"></div>
+      <header>
+            <nav>
+                  <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/">Services</a></li>
+                        <li><a href="/">Contact us</a></li>
+                        <li><a href="/">About</a></li>
+                  </ul>
+            </nav>
+      </header>
+      <main>
+            <div>
+            </div>
+            <div></div>
+      </main>
+      <div class="box">
+            <h1>WELCOME TO SIGMA WEB DEV COURSE</h1>
+      </div>
+      <footer>
+            <p>© 2023 Sigma Web Development Course</p>
+            <p>Contact us at: 1234567890</p>
+      </footer>
+</body>
+
+</html>
