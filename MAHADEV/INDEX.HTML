@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+    <div class="container">
+        <h1 style="color:whitesmoke; font-size:2rem;">Basic Calculator</h1>
+        <div class="myInput">
+            <form>
+                <div class="firstnum">
+                    <label for="First Number ">First Number :</label>
+                    <input id="firstNum" type="number" required placeholder="Enter your first number " autofocus>
+                </div>
+                <div class="secondnum">
+                    <label for="Second Number">Second Number :</label> <input id="secondNum" type="number" required
+                        placeholder="Enter your second number">
+                </div>
+                <div class="operations">
+
+                    <label for="Operations">Choose your operation :</label>
+                    <select required id="options">
+                        <option>Select any one operation</option>
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="*">*</option>
+                        <option value="/">/</option>
+                    </select>
+                </div>
+            </form>
+
+        </div>
+        <div class="mySubmit"><button id="mySubmit">Submit </button></div>
+        <div class="myResult">
+            <p id="myResult">Your Result</p>
+        </div>
+    </div>
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
