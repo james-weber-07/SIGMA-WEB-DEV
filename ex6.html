@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>NAV BAR</title>
+      <style>
+            *{
+                  padding: 0;
+                  margin: 0;  
+            }
+            header {
+                  margin: 2vh auto;
+                  width: 80vw;
+                  height: 10vh;
+                  display: flex;
+                  justify-content: space-evenly;
+                  align-items: center;
+            }
+            .image img {
+                  cursor: pointer;
+                  width: 15vw;
+            }
+            .menu ul{
+                  display:flex;
+                  justify-content: space-around;
+                  list-style: none;
+                  width:50vw;
+                  
+            }
+            .menu ul li{
+                  font-size: 1.1rem;
+                  cursor: pointer;
+            }
+            .btn button{
+                  border:2px solid black;
+                  width:8vw;
+                  height: 4vh;
+                  background-color: antiquewhite;
+                  border-radius: 2vw;
+                  cursor: pointer;
+            }
+            main{
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                  gap:2vh;
+                  margin-top: 5vh;
+            }
+            main h1{
+                  font-family: 'Segoe UI';
+                  font-weight: 400;
+                  font-size:3rem;
+            }
+            main p{
+                  text-align: center;
+                  width:70vw;
+                  font-size: 1.3rem;
+                  word-wrap: break-word;
+            }
+      </style>
+</head>
+
+<body>
+      <header>
+            <div class="image"><img src="https://www.ultraedit.com/wp-content/uploads/2023/01/Background-2.png" alt="">
+            </div>
+
+            <div class="menu">
+                  <ul>
+                        <li>Product</li>
+                        <li>Pricing</li>
+                        <li>Resources</li>
+                        <li>Our Company</li>
+                  </ul>
+            </div>
+            <div class="btn">
+                  <button>BUY</button>
+                  
+            </div>
+      </header>
+      <main>
+            <h1>Download <strong>Ultraedit</strong> for Windows</h1>
+            <p>Download and try UltraEdit before you buy it! This download includes the full Windows version of the text editor.</p>
+      </main>
+</body>
+
+</html>
