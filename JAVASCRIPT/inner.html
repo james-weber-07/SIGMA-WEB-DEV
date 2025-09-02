@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style>
+            .b1 {
+                  color: aliceblue;
+                  border-radius: 20px;
+                  background-color: black;
+                  transition: box-shadow 1s;
+                  width: 18vw;
+                  height: 12vh;
+                  margin: 10px;
+                  cursor: pointer;
+                  font-size: 2em;
+                  /* border:none; */
+                  align-items: center;
+                  font-family: 'comic relief', 'Comic Sans MS', cursive;
+            }
+
+            .b1:hover {
+                  box-shadow: 5px 5px 40px aliceblue;
+            }
+      </style>
+</head>
+
+<body>
+      <button class="b1" onclick="func()">LEARN HTML
+      </button>
+      <script>
+            function func(){
+                  document.getElementsByClassName("b1")[0].innerHTML="YOU HAVE LEARNT HTML"
+            }            
+            document.body.append(div).innerHTML="i am added" 
+      </script>
+</body>
+
+</html>
