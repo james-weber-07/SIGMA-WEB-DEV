@@ -2,7 +2,6 @@
 function createcard(title, cname, views, months, thumbnail) {
       y=document.createElement("div")
       y.setAttribute("class","card")
-      // y.setAttribute("id","idcard")
       document.getElementById("but").before(y)
       y.insertAdjacentHTML("afterbegin",
        `<div class="image"><img class="thumb" src="${thumbnail}" alt=""></div>

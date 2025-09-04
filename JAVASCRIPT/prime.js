@@ -21,3 +21,4 @@ function check() {
       }
       arr.length=0;
 }
+document.getElementById("btn").addEventListener("click",check)

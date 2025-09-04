@@ -16,7 +16,7 @@ body {
 .card {
       width: 50vw;
       height: 15vh;
-      margin: auto;
+      margin:10px;
       background-color: rgb(63, 63, 63);
       border-radius: 5px;
       display: flex;
@@ -26,6 +26,7 @@ body {
 
 .image {
       padding: 0.5vw;
+      width: 12vw;
 }
 
 .image img {
@@ -36,17 +37,17 @@ body {
 .content {
       display: flex;
       justify-content: flex-start;
-      align-items: center;
+      align-items: flex-start;
       padding: 0.5vw;
       gap: 0.5vh;
       flex-direction: column;
+      width:38vw;
 }
 
 .info {
       display: flex;
       flex-direction: row;
-      /* justify-content:center;
-                  align-items:flex-start; */
+      justify-content: flex-start;
       gap: 2vw;
 }
 

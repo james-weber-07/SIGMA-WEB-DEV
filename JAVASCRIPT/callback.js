@@ -1,15 +1,24 @@
 
+
+function func(c){
+      console.log("hi");
+      c("hello");
+}
+function call(a){
+      console.log(a);
+}
+setTimeout(()=>func(call),3000)
+
 // new Promise((resolve,reject)=>{
 //       x=Math.random()
-//       if(x>0.5){
+//       if(x>0){
 //             resolve("its greater")
-//       }
-//       else{
-//             reject("its samller")
 //       }
 // }).then((a)=>{
 //       console.log(a)
-//       return a+" hello";
+//       return ;
 // }).then((e=>{
 //       console.log(e)
 // }))
+
+
