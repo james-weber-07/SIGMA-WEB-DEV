@@ -86,6 +86,9 @@ body {
       align-items: center;
       gap: 1vh;
       flex-direction: column;
+      background-color:antiquewhite;
+      border:2px solid black;
+      border-radius:5px;
 }
 #but{
       position:static;

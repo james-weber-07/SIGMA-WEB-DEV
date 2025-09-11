@@ -21,11 +21,11 @@ function create() {
        document.getElementById("but").before(x)
        x.id="myform"
        x.insertAdjacentHTML("afterbegin",
-      `Title : <input type="text"  class="a1" id="title">
-            Channel Name : <input type="text"  class="a1"name="" id="cname">
-            Views : <input type="text" class="a1" id="views">
-            Months old : <input type="text" class="a1" id="months">
-            Thumbnail Image src : <input type="text" class="a1"id="url"></input>
+      `     Title : <input type="text"  class="a1" id="title" placeholder="TITLE OF VIDEO" >
+            Channel Name : <input type="text"  class="a1"name="" id="cname" placeholder="THE CHANNEL NAME">
+            Views : <input type="text" class="a1" id="views" placeholder="NO. OF VIEWS">
+            Months old : <input type="text" class="a1" id="months" placeholder="MONTHS OLD">
+            Thumbnail Image src : <input type="text" class="a1"id="url" placeholder="THUMBNAIL IMG SRC"></input>
            <button type="button" class="b1" onclick="done()">CREATE</button>
             `)
        
