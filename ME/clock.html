@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style>
+            body{
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  width:100vw;
+                  height:100vh;
+                  flex-direction: column;
+            }
+            #sec{
+                  height:0;
+                  width:10vw;
+                  border: 2px solid black;
+                  transform-origin:0%;
+            }
+            #box{
+                  /* display: flex;
+                  justify-content: center;
+                  align-items: center; */
+                  height:20vh;
+                  
+            }
+      </style>
+</head>
+<body>
+      <div id="box"><div id="sec" ></div></div>
+      <button id="btn" onclick="move()">CLICK TO START</button>
+      <script src="clock.js"></script>
+
+</body>
+</html>
