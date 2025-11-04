@@ -1,0 +1,27 @@
+body{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+}.main .img{
+      width: 80vw;
+}
+#btn{
+      width: 5vw;
+}
+#menu{
+      width:20vw;
+      font-size: 2rem;
+      color:black;
+}
+.first{
+      display: none;
+      transform: translateX(-100);
+      transition: 1s ease-in-out;
+}
+#check{
+      display: none;
+}
+#check:checked ~ .first{
+      display:block;
+      transition: 1s ease-in-out;
+}
