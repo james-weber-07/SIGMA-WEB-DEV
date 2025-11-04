@@ -1,0 +1,11 @@
+.card{
+      border: 2px soild black;
+      padding: 5px;
+      width:20vw;
+}
+.container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+}
