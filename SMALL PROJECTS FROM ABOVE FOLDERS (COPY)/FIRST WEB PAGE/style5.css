@@ -1,0 +1,73 @@
+body {
+    background-image: url(pic4.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+.container1{
+    border: 4px solid rgb(27, 26, 26);
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+    width:250px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.b2 {
+    color: aliceblue;
+    border-radius: 20px;
+    background-color: black;
+    transition: box-shadow 1s;
+    width: 250px;
+    height: 90px;
+    margin-left: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    align-items: center;
+    font-family: 'comic relief', 'Comic Sans MS', cursive;
+}
+
+.b2:hover {
+    box-shadow: 5px 5px 40px black;
+}
+
+.a1 {
+    color: aliceblue;
+    font-family: 'comic relief', 'Comic Sans MS', cursive;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    background: transparent;
+    height: 30px;
+    font-weight: bold;
+}
+.b1 {
+    color: aliceblue;
+    border-radius: 20px;
+    background-color: black;
+    transition: box-shadow 1s;
+    margin: 10px;
+    padding:10px;
+    cursor: pointer;
+    align-items: center;
+    font-family: 'comic relief', 'Comic Sans MS', cursive;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    gap:30px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+input[type="username"],
+input[type="password"] {
+    color: black;
+    font-weight: bold;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>CALCULATOR</title>
+      <style>
+            body {
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                  height: 100vh;
+            }
+
+            .main {
+                  width: 15vw;
+                  height: 25vh;
+                  display: grid;
+                  grid-template-columns: repeat(4, 1fr);
+                  border:2px solid black;
+            }
+
+            button {
+                  color: whitesmoke;
+                  background-color: orange;
+                  border: 1px solid white;
+            }
+
+            .screen{
+                  border: 2px solid black;
+                  width: 15vw;
+                  height: 7vh;
+                  color: black;
+            }
+      </style>
+</head>
+
+<body>
+      <div class="screen" id="screen1"></div>
+      <div class="main">
+            <button id="ob" onclick="num('(')">(</button>
+            <button id="cb" onclick="num(')')">)</button>
+            <button id="perc" onclick="num('%')">%</button>
+            <button id="clr" onclick="clr()">C</button>
+            <button id="num7" onclick="num(7)">7</button>
+            <button id="num8" onclick="num(8)">8</button>
+            <button id="num9" onclick="num(9)">9</button>
+            <button id="divide" onclick="num(`/`)">/</button>
+            <button id="num4" onclick="num(4)">4</button>
+            <button id="num5" onclick="num(5)">5</button>
+            <button id="num6" onclick="num(6)">6</button>
+            <button id="multi" onclick="num(`*`)">x</button>
+            <button id="num1" onclick="num(1)">1</button>
+            <button id="num2" onclick="num(2)">2</button>
+            <button id="num3" onclick="num(3)">3</button>
+            <button id="minus" onclick="num(`-`)">-</button>
+            <button id="num0" onclick="num(0)">0</button>
+            <button id="nump" onclick="num('.')">.</button>
+            <button id="submit" onclick="submit()">calculate</button>
+            <button id="plus" onclick="num(`+`)">+</button>
+      </div>
+      <script src="calculator.js"></script>
+</body>
+
+</html>

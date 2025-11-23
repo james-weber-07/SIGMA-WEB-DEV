@@ -1,0 +1,96 @@
+* {
+      margin: 0;
+      padding: 0;
+      color: white;
+}
+
+body {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.card {
+      width: 50vw;
+      height: 15vh;
+      margin:10px;
+      background-color: rgb(63, 63, 63);
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.image {
+      padding: 0.5vw;
+      width: 12vw;
+}
+
+.image img {
+      width: 12vw;
+      border: 0.5px solid white;
+}
+
+.content {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 0.5vw;
+      gap: 0.5vh;
+      flex-direction: column;
+      width:38vw;
+}
+
+.info {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      gap: 2vw;
+}
+
+.b1 {
+      color: aliceblue;
+      border-radius: 20px;
+      background-color: black;
+      transition: box-shadow 1s;
+      width: 18vw;
+      height: 12vh;
+      margin: 10px;
+      cursor: pointer;
+      font-size: 1em;
+      align-items: center;
+      font-family: 'comic relief', 'Comic Sans MS', cursive;
+}
+
+.b1:hover {
+      box-shadow: 5px 5px 40px aliceblue;
+}
+
+.a1 {
+      color: aliceblue;
+      font-family: 'comic relief', 'Comic Sans MS', cursive;
+      padding-left: 30px;
+      margin-bottom: 10px;
+      border-radius: 7px;
+      background: transparent;
+      height: 30px;
+      font-weight: bold;
+}
+
+#myform {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1vh;
+      flex-direction: column;
+      background-color:antiquewhite;
+      border:2px solid black;
+      border-radius:5px;
+}
+#but{
+      position:static;
+      bottom:0px;
+}
